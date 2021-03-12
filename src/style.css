@@ -47,7 +47,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-.contact {
+.primary-link {
   background-color: var(--primary-color);
   color: white;
 }
