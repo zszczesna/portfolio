@@ -59,11 +59,6 @@ p {
 
 .launch-link a {
   margin: 0;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  box-shadow: var(--box-shadow);
 }
 
 .about-paragraphs {
@@ -84,4 +79,28 @@ p {
 
 a:hover {
   color: #6b011f;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+  }
+
+  h2,
+  p {
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .primary-link {
+    text-align: center;
+    display: block;
+    margin: 0 20px;
+  }
 }
